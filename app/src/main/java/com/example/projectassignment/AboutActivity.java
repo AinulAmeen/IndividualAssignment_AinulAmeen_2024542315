@@ -22,7 +22,7 @@ public class AboutActivity extends AppCompatActivity {
         aboutText.setText(aboutInfo);
 
         githubButton.setOnClickListener(v -> {
-            String githubUrl = "[Your GitHub URL]"; // Replace with your URL
+            String githubUrl = "https://github.com/AinulAmeen/IndividualAssignment_AinulAmeen_2024542315"; // Replace with your URL
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
             startActivity(intent);
         });
